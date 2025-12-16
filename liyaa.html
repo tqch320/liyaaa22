@@ -742,7 +742,7 @@
 
                 // LEVEL 5: KARTU-1 (dari sebelumnya multi-card) — dijadikan rintangan standalone
                 {
-                    id: 5, x: 5000, type: 'calc', visual: 'mud',
+                    id: 5, x: 5000, type: 'calc', visual: 'swamp',
                     question: "Bola A dan B mula-mula bergerak seperti pada gambar. Kedua bola kemudian bertumbukan tidak lenting sama sekali. Tentukan kecepatan bola A setelah tumbukan (m/s)!",
                     sim: { type: 'image', src: 'https://raw.githubusercontent.com/lorrainemydth-gif/ICT-MEDIA-PEMBELAJARAN/1aa2ac16b6c9e9df7146a2f40c9a5b39246b693f/WhatsApp%20Image%202025-12-15%20at%208.33.04%20AM.jpeg' },
                     options: { input: { correctValue: 1, tolerance: 0.05, unit: 'm/s' }, feedback: { correct: 'Benar — kecepatan bola A setelah tumbukan = 1 m/s', wrong: 'Coba lagi — gunakan kekekalan momentum untuk tumbukan tidak lenting sama sekali.' } }
@@ -750,7 +750,7 @@
 
                 // LEVEL 6: TUMBUKAN LENTING SEBAGIAN (KECEPATAN PANTUL)
                 {
-                    id: 6, x: 5600, type: 'calc', visual: 'mud',
+                    id: 6, x: 5600, type: 'calc', visual: 'swamp',
                     question: "Sebuah benda jatuh bebas dari ketinggian 80 m di atas tanah. Jika tumbukan yang terjadi dengan tanah adalah lenting sebagian (e = 0.2), kecepatan pantul benda setelah tumbukan adalah (m/s)?",
                     options: {
                         input: { correctValue: 7.92, tolerance: 0.05, unit: 'm/s' },
@@ -761,14 +761,14 @@
 
                 // LEVEL 7: TUMBUKAN LENTING SEBAGIAN (TINGGI PANTUL BERURUTAN)
                 {
-                    id: 7, x: 6200, type: 'calc', visual: 'mud',
+                    id: 7, x: 6200, type: 'calc', visual: 'swamp',
                     question: "Tumbukan Lenting Sebagian\nSebuah bola basket jatuh dari ketinggian 6,25 m lalu memantul kembali hingga ketinggian 4,5 m. Tentukan tinggi pantulan bola basket berikutnya (m)!",
                     options: { input: { correctValue: 3.24, tolerance: 0.05, unit: 'm' }, feedback: { correct: 'Benar — h_next = e² × h_current', wrong: 'Ingat: e² = h2/h1; h3 = e² × h2' }, explanation: 'h2/h1 = 4.5/6.25 = 0.72 -> h3 = 0.72 × 4.5 = 3.24 m' }
                 },
 
                 // LEVEL 8: TUMBUKAN LENTING SEMPURNA (Dua benda 10 kg & 6 kg)
                 {
-                    id: 8, x: 6800, type: 'calc-multi', visual: 'mud',
+                    id: 8, x: 6800, type: 'calc-multi', visual: 'swamp',
                     question: "Tumbukan Lenting Sempurna\nTerdapat dua benda yang memiliki massa 10 kg dan 6 kg. Keduanya bergerak pada bidang datar yang licin, sementara kecepatannya adalah 4 m/s dan 8 m/s. Arah kedua benda berlawanan. Jika terjadi tumbukan lenting sempurna, maka berapakah kecepatan masing-masing benda setelah tumbukan?",
                     options: { inputs: [ { id: 'ans-v1-8', label: "Kecepatan Akhir Benda 1 (v1')", unit: "m/s", correctValue: -5, tolerance: 0.1 }, { id: 'ans-v2-8', label: "Kecepatan Akhir Benda 2 (v2')", unit: "m/s", correctValue: 7, tolerance: 0.1 } ], feedback: { correct: "Sempurna!", wrong: "Gunakan rumus tumbukan lenting sempurna untuk menghitung v1' dan v2'" } }
                 },
